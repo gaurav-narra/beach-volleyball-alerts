@@ -14,8 +14,7 @@ Sends slack notifications when
 
 ## Local
 
-Need to fill in the proper credentials in `src/config.js` using `src/config.example.js`
-
+Need to fill in the proper credentials in `./config.json` using `./config.example.json`
 ```
 npm run start:dev
 ```

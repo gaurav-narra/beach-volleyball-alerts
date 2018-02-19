@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha 'test/**/*.js'",
     "test:watch": "mocha -w 'test/**/*.js'",
-    "start:dev": "node src/scheduler.js"
+    "start:dev": "node src/scheduler.js",
+    "deploy": "serverless deploy"
   },
   "author": "Gaurav",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "cron": "^1.3.0",
     "mocha": "^5.0.1",
     "nock": "^9.1.6",
+    "serverless": "^1.26.0",
     "should": "^13.2.1",
     "sinon": "^4.3.0",
     "sinon-stub-promise": "^4.0.0"
